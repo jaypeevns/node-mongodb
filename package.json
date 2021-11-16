@@ -1,0 +1,38 @@
+{
+  "name": "mongodb-task",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sample task for IBM ISL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaypeevns/node-mongodb.git"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs",
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Jay Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaypeevns/node-mongodb/issues"
+  },
+  "homepage": "https://github.com/jaypeevns/node-mongodb#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "nodemon": "^2.0.15"
+  }
+}

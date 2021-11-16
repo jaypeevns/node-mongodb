@@ -1,0 +1,26 @@
+// GET http://localhost:8080/employees
+// DELETE http://localhost:8080/employees/631776  HTTP/1.1
+
+POST http://localhost:8080/addEmployee HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Roshni",
+    "lastName": "Singh",
+    "employeeId": "631778",
+    "email": "roshni.akg@gmail.com",
+    "country": "India",
+    "phone": 9783098820
+}
+
+PUT http://localhost:8080/employees/631776 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jay Prakash",
+    "lastName": "Verma Hi",
+    "employeeId": "631776",
+    "email": "jay@gmail.com",
+    "country": "India",
+    "phone": 9783098822
+}
